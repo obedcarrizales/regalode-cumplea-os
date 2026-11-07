@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un regalo para Rubas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Pantalla 1: Presentacion -->
+    <div id="screen-intro" class="screen active">
+        <div class="heart"></div>
+        <h1>💗 Este es un detalle para ti rubas por ser tu cumpleaños 🎂 </h1>
+        <button id="btn-continue">Continuar</button>
+    </div>
+
+    <!--Pantalla 2: El sobre-->
+    <div id="screen-envelope" class="screen">
+        <h2 class="envelope-hint">🌟 Toca el sobre para abrirlo 🌟</h2>
+        <div class="envelope" id="envelope">
+            <div class="flap"></div>
+            <div class="body"></div>
+            <div class="front"></div>
+        </div>
+    </div>
+
+    <!--Pantalla 3: Carta y Estrellas-->
+    <div id="screen-letter" class="screen">
+        <div id="stars-bg"></div>
+
+        <div class="letter-content">
+            <h2>Para ti mi rubas 🌹</h2>
+            <p>
+                Este detalle es importante por el hecho de que es para ti rubas, alguien del cual no me arrepiento de conocer ya que eres una gran amiga sinceramente para mi
+                y con todos estos años que ya han pasado sinceramente te lo digo que te aprecio demasiado como no te imaginas en verdad, te pido perdon una ves mas en esta carta ya que se que no todo a sido color de rosas en nuestra amistad
+                se que han ocurrido cosas las cuales si tengo presentes en que no quiero que se vuelvan a repetir y por ello estoy haciando mejor las cosas ya que no quiero perderte, eres alguien que sin dudas significa mucho en mi vida asi como otras amistades, pero obviamente que te aprecio mas
+                por el tiempo y por las cosas que han pasado, nunca imagine el hecho de dar o conocer a una persona que valiera tanto en mi vida y como amistad sobre todo ya que no pensaba en un inicio hacer amigos en el cobat estaba esperanzado en solo quedarme con mi primer bolita de cursos y de la nada coinsidimos tu y yo
+                y desde ese dia no me arrepiento la verdad que me cais demasiado bien y en cierto modo aun que este triste siempre recuerdo tus abrzos sinceramente es raro estar en l universidad y recodar que de la nada ya no llegara alguien que me abrace de la nada, sin duda alguna si es un poco triste no te mentire pero me alegra que aun apesar de las cosas que hayan pasado,
+                aun apesar de que no estemos en la misma universidad y quizas no tengamos el mismo tiempo seguimos juntos como amistad y pues espero en Dios sigamos rubas ya que te aprecio en verdad y creo que no tengo motivos por los cuales decir que tomaria la decision de dejarte de hablar o cosas por el estilo, te quiero en verdad demasiado rubas que pues quizas no pueda darte mucho realmente pero quiero que sepas bien
+                que sin importar que pase, sabes que estoy para ti, para escucharte, para aconsejarte, para burlarme de ti, para chismear, pero sobre todo para el dia en el que quieras llorar sin dudas puedes hablarme quizas en ocasiones no tenga las mejores palabras pero nunca te negare un abrazo a ti ya que no se si te llegue a contar pero no soy muy fan del contacto fisico
+                pero tus abrazos se sienten sinceros en verdad y me da a entender bien que vales mucho como amistad y como persona sinceramente💗.
+            </p>
+        </div>
+
+        <div class="big-star" data-src="foto1.jpeg" style="top: 15%; left: 10%;">⭐</div>
+        <div class="big-star" data-src="foto2.jpeg" style="top: 45%; left: 80%;">⭐</div>
+        <div class="big-star" data-src="foto3.jpg" style="top: 80%; left: 20%;">⭐</div>
+
+        <div id="photo-modal" class="modal">
+            <span class="close-btn">&times;</span>
+            <img id="modal-img" src="" alt="Recuerdo">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
